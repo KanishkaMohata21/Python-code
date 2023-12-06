@@ -9,11 +9,11 @@ nr_symbol=int(input("How many symbols would you like in your password?\n"))
 
 password_list=[]
 
-for char in range(1,nr_letter):
+for char in range(0,nr_letter):
     password_list+=random.choice(letters)
-for char in range(1,nr_numbers):
+for char in range(0,nr_numbers):
     password_list+=random.choice(numbers)
-for char in range(1,nr_symbol):
+for char in range(0,nr_symbol):
     password_list+=random.choice(symbols)
 random.shuffle(password_list)
 
