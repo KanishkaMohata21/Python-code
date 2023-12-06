@@ -1,5 +1,5 @@
 import random
-user_choice=int(input("What is your choice?\nEnter 0 for rock,1 for scissor,2 for paper:"))
+user_choice=int(input("What is your choice?\nEnter 0 for rock,1 for paper,2 for scissor:"))
 if user_choice>=3 or user_choice<0:
     print("Invalid number")
 else:
