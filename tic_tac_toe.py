@@ -28,7 +28,7 @@ def check_winner(x, o):
         elif all(o[i] == 1 for i in combo):
             return "O WON"
 
-    return None  # No winner yet
+    return None 
 
 print("WELCOME TO TIC-TAC-TOE")
 x = [0, 0, 0, 0, 0, 0, 0, 0, 0]
